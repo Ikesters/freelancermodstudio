@@ -1,0 +1,17 @@
+#labels Deprecated
+*To do list*
+  * Improve ini/bini visual editor
+    * Handle multiple filetypes within one
+    * Copy / Paste / Cut / Duplicate
+    * UnDo / ReDo
+  * Mod management
+  * Create FLMOD files out of mod with xml-scripts
+  * Activate / Deactivate current mod to Freelancer (developer doesnt have to use FLMM anymore to test changes)
+  * Ressource Editor
+  * Edit universe and systems in a System Editor
+  * Import CSV file to ini/bini visual editor (create hundreds of entries in seconds)
+  * Generate files (for example systems_shortest_path.ini)
+  * Display difference between the vanilla freelancer inis and the ones of the mod
+
+
+Sorted by order of importance, first is most important.
