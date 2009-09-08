@@ -1,10 +1,8 @@
 #labels Featured
-#Freelancer Mod Studio Changelog
+*Version 0.8.1 (WIP)*
+  * Added freelancer.ini to template.xml so that Freelancer Mod Studio can read it
+  * Fixed bug if block was commented out
+  * Fixed bug where semicolon (;) of comment would be shown at the end of the option
 
-= 0.8.1 (WIP) =
-* Added freelancer.ini to template.xml so that Freelancer Mod Studio can read it
-* Fixed bug if block was commented out
-* Fixed bug where semicolon (;) of comment would be shown at the end of the option
-
-= 0.8 =
-* First release
+*Version 0.8*
+  * First release
