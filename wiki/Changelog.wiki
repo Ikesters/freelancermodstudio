@@ -1,6 +1,7 @@
 #labels Featured
 *Version 0.8.1*
   * Improved editing of multiple options in property window
+  * Improved program startup speed
   * Added freelancer.ini to template.xml so that Freelancer Mod Studio can read it
   * Fixed bug if block was commented out
   * Fixed bug where semicolon (;) of comment would be shown at the end of the option
