@@ -5,6 +5,7 @@
     * UnDo / ReDo
     * Typecasting (not possible to enter a text inside a number property)
     * Save bini
+    * Filter block type
   * Mod management
   * Create FLMOD files out of mod with xml-scripts
   * Activate / Deactivate current mod to Freelancer (developer doesnt have to use FLMM anymore to test changes)
