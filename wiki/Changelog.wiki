@@ -1,4 +1,10 @@
 #labels Featured
+*Version 0.8.2*
+  * Implemented global shortcuts depending on active content
+  * Fixed editing of nested options (like faction under encounter)
+  * Fixed error notification at silent auto update on startup
+  * Fixed bug where modified color of block would not be changed if it was the last in the file
+
 *Version 0.8.1*
   * Improved editing of multiple options in property window
   * Improved program startup speed
