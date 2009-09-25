@@ -1,7 +1,7 @@
+#labels Featured
 *To do list*
   * Improve ini/bini visual editor
     * Handle multiple filetypes within one
-    * Copy / Paste / Cut / Duplicate
     * UnDo / ReDo
     * Typecasting (not possible to enter a text inside a number property)
     * Save bini
