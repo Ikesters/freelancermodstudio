@@ -2,6 +2,8 @@
 *Version 0.8.3*
   * Added Copy/Cut/Paste
   * Added Undo/Redo
+  * Added window layout saving/loading
+  * Fixed minor bugs in dock panel suite
   * Fixed ini save bug where some line breaks were not written
 
 *Version 0.8.2*
