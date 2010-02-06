@@ -1,4 +1,13 @@
 #labels Featured
+*Version 0.9 Beta* - in progress
+  * Added 3D system editor
+  * Added system legend icons to table editor
+  * Added possibility to hide/show objects in the system editor using the table editor
+  * Improved table editor in general
+  * Fixed minor display bugs
+  * Fixed silent update display bug
+  * Fixed undo/redo bug where block will not be shown again after redo
+
 *Version 0.8.3*
   * Added Copy/Cut/Paste
   * Added Undo/Redo
