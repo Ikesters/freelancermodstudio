@@ -5,14 +5,16 @@
     * Typecasting (not possible to enter a text inside a number property)
     * Save bini
     * Filter block type
+  * Improve 3d editor
+    * Better models
+    * Position transform using mouse
   * Mod management
   * Create FLMOD files out of mod with xml-scripts
-  * Activate / Deactivate current mod to Freelancer (developer doesnt have to use FLMM anymore to test changes)
+  * Activate / Deactivate current mod to Freelancer
   * Ressource Editor
-  * Edit universe and systems in a System Editor
   * Import CSV file to ini/bini visual editor (create hundreds of entries in seconds)
   * Generate files (for example systems_shortest_path.ini)
   * Display difference between the vanilla freelancer inis and the ones of the mod
+  * Change project to WPF (would result in a better performance and more powerful display)
 
-
-Sorted by order of importance, first is most important.
+Somewhat sorted by order of importance.
