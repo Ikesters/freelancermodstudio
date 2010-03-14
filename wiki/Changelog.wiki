@@ -1,5 +1,18 @@
 #labels Featured
-*Version 0.9 Beta* - in progress
+*Version 0.9.2*
+  * Added 3D universe editor
+  * Added pyramid mesh display of ships and jump gates
+  * Added refresh of connection position on system position change or removal
+  * Added gradient universe connection display
+  * Added open system menu in universe display
+  * Fixed incorrect display of document menu if there is no open file at startup
+  * Fixed display of missing universe connections
+  * Fixed content and document null bug
+  * Fixed bug with open system editor and no open document
+  * Fixed universe loading thread bug
+  * Fixed model update bug on zone shape/type change
+
+*Version 0.9 Beta*
   * Added 3D system editor
   * Added system legend icons to table editor
   * Added possibility to hide/show objects in the system editor using the table editor
