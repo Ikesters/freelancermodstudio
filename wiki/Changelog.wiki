@@ -1,4 +1,14 @@
 #labels Featured
+*Version 0.9.5*
+  * Load and save blocks in the original order
+  * Allow to change the order of blocks using drag&drop
+  * Allow sorting the blocks while still retaining the block order
+  * Options will be saved in a unified order which is used by Freelancer
+  * Allow to load and save entries which dont have a value (seperable = )
+  * If there are multiple entries for a single option take the last (Freelancer like behaviour)
+  * Implemented octahedron mesh display for LightSource
+  * Fix a crash when opening a system in the universe 3D display when using the english language
+
 *Version 0.9.2*
   * Added 3D system editor
   * Added 3D universe editor including display of travel connections using jumpgate (yellow), jumphole (red), both (blue) or a combination of those (gradient color)
