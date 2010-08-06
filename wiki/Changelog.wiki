@@ -1,4 +1,9 @@
 #labels Featured
+*Version 0.9.5.1*
+  * Added small delay for tooltips
+  * Hid "New Mod" and "Open Mod" menu entries until mod management is implemented
+  * Fix typo which prevented system and universe from loading in 0.9.5
+
 *Version 0.9.5*
   * Load and save blocks in the original order
   * Allow to change the order of blocks using drag&drop
@@ -7,7 +12,7 @@
   * Allow to load and save entries which dont have a value (seperable = )
   * If there are multiple entries for a single option take the last (Freelancer like behaviour)
   * Implemented octahedron mesh display for LightSource
-  * Fix a crash when opening a system in the universe 3D display when using the english language
+  * Fixed a crash when opening a system in the universe 3D display when using the english language
 
 *Version 0.9.2*
   * Added 3D system editor
