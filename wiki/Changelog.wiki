@@ -1,10 +1,12 @@
 #labels Featured
 *Version 0.9.7*
-* Added selection of farest object when pressing shift+left mouse button
-* Added flat surface display for system paths (cylindrical zones) and universe connections for more clear display
-* Improved systems in universe display
-* Improved brightness of zones
-* Fixed minimizing at maximized state on exiting program but cancelling it
+  * Added selection of farest object when pressing shift+left mouse button
+  * Added flat surface display for system paths (cylindrical zones) and universe connections for more clear display
+  * Improved systems in universe display
+  * Improved brightness of zones
+  * Fixed display of exclusion cylinders
+  * Fixed display of objects getting too big by adding a maximum size
+  * Fixed minimizing at maximized state on exiting program but cancelling it
 
 *Version 0.9.6*
   * Improved and sped up object handling in the 3d viewer
