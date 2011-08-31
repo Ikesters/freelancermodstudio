@@ -1,27 +1,42 @@
 #labels Featured
+*Version 0.9.8*
+  * Added ability to focus the selected object by pressing CTRL+F
+  * Added the following settings:
+    * Save ini files without spaces around equal sign
+    * Save ini files without empty lines between sections
+    * Sort options based on category and or alphabetical
+    * Show option description
+  * Improved object models by making them light illuminated again - its now also easier to identify the rotation
+  * Improved 3d editor selection by not moving the camera to the target
+  * Fixed all rotation issues
+  * Fixed ring zone models
+  * Fixed inverted gradient system connections in universe display
+  * Fixed double click on a system in universe not showing the context menu
+  * Fixed loading of language from settings
+
 *Version 0.9.7*
-  * Added selection of farest object when pressing shift+left mouse button
-  * Added flat surface display for system paths and universe connections for more clear display
-  * Improved systems in universe display
+  * Added ability to select the farest object when pressing shift+left mouse button
+  * Added flat surface model for system paths and universe connections
+  * Improved systems models in universe
   * Improved brightness of zones
-  * Fixed display of exclusion cylinders
-  * Fixed display of objects getting too big by adding a maximum size
-  * Fixed minimizing at maximized state on exiting program but cancelling it
+  * Fixed exclusion cylinders model
+  * Fixed objects models getting too big by adding a maximum size
+  * Fixed minimizing the window at maximized state on program exit but cancelling it
 
 *Version 0.9.6*
   * Improved and sped up object handling in the 3d viewer
   * Improved paste code so that pasted blocks will be added under selected ones and if there are none selected at the end of the list
-  * Improved 3d viewer object size to have a minimum size and therefore prevent some objects from getting too small
+  * Improved 3d viewer model size to have a minimum size and therefore prevent some objects from getting too small
   * Fixed issues where 3d viewer and ini editor ids were not in sync and could crash the application using copy&paste
   * Fixed loading of some archetype files by comparing system archetypes case insensitive and useing the last occurrence of duplicate entries
   * Fixed native application image not being installed by installer and add an checkbox to installer
 
 *Version 0.9.5.1*
   * Added small delay for tooltips
-  * Fixed typo which prevented systems and universe from loading in 0.9.5
+  * Fixed typo which prevented systems and universe from loading
 
 *Version 0.9.5*
-  * Load and save blocks in the original order
+  * Added ability to load and save blocks in the original order
   * Allow to change the order of blocks using drag&drop
   * Allow sorting the blocks while still retaining the block order
   * Options will be saved in a unified order which is used by Freelancer
@@ -32,11 +47,9 @@
 
 *Version 0.9.2*
   * Added 3D system editor
-  * Added 3D universe editor including display of travel connections using jumpgate (yellow), jumphole (red), both (blue) or a combination of those (gradient color)
+  * Added 3D universe editor including display of travel connections using jumpgate (gray), jumphole (red), both (white), none (black) or a combination of those (gradient color)
   * Added system legend icons to table editor
   * Added possibility to hide/show objects in the system editor using the table editor
-  * Added pyramid mesh display for ships and jump gates
-  * Added open system menu in universe display
   * Improved table editor in general
   * Fixed incorrect display of document menu if there is no open file at startup
   * Fixed content and document null bug
