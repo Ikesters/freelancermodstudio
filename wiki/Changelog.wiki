@@ -1,4 +1,12 @@
 #labels Featured
+*Version 0.9.9 - WIP*
+  * Added ability to save and load the 3d viewer window layout
+  * Improved work space by closing the 3d viewer on non system or universe ini files
+  * Improved performance slightly
+  * Fixed selection issue after sorting or removing content.
+  * Fixed solid models being drawn after emissive ones resulting in the emissive models to be invisible
+  * Fixed crash when dragging the 3d viewer to the document pane
+
 *Version 0.9.8*
   * Added ability to focus the selected object by pressing CTRL+F
   * Added the following settings:
