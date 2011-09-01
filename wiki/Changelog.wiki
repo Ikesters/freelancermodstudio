@@ -30,7 +30,7 @@
   * Improved brightness of zones
   * Fixed exclusion cylinders model
   * Fixed objects models getting too big by adding a maximum size
-  * Fixed minimizing the window at maximized state on program exit but cancelling it
+  * Fixed losing the maximized window state on program exit where the user decided to cancel the operation due to a file which was not yet saved
 
 *Version 0.9.6*
   * Improved and sped up object handling in the 3d viewer
