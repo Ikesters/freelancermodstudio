@@ -1,10 +1,12 @@
 #labels Featured
 *Version 0.9.9 - in development*
-  * Added ability to save and load the 3d viewer window layout
-  * Improved work space by closing the 3d viewer on non system or universe ini files
+  * Added saving and loading of the 3d viewer window layout
+  * Added setup option to associate .ini files with Freelancer Mod Studio
+  * Improved work space by closing the 3d viewer on non system/universe ini files
   * Improved performance slightly
-  * Fixed selection issue after sorting or removing content
-  * Fixed solid models being drawn after emissive ones resulting in the emissive models to be invisible
+  * Fixed selection issue after sorting or removing objects
+  * Fixed solid models being drawn in front of emissive ones resulting in the emissive models to be invisible
+  * Fixed pyramid meshes being lit from the inversed direction
   * Fixed crash when dragging the 3d viewer to the document pane
   * Fixed a few small bugs
 
@@ -30,7 +32,7 @@
   * Improved brightness of zones
   * Fixed exclusion cylinders model
   * Fixed objects models getting too big by adding a maximum size
-  * Fixed losing the maximized window state on program exit where the user decided to cancel the operation due to a file which was not yet saved
+  * Fixed reverting the maximized window state on program exit where the user decided to cancel the operation due to a file which was not yet saved
 
 *Version 0.9.6*
   * Improved and sped up object handling in the 3d viewer
