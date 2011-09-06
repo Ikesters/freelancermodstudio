@@ -1,6 +1,7 @@
 #labels Featured
 *Version 0.9.9 - in development*
   * Added legend icon for systems in universe display
+  * Added different display color for trade path (blue) and patrol path (white)
   * Added saving and loading of the 3d viewer window layout
   * Added setup option to associate .ini files with Freelancer Mod Studio
   * Improved work space by closing the 3d viewer on non system/universe ini files
