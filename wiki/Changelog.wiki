@@ -1,11 +1,13 @@
 #labels Featured
 *Version 0.9.9 - in development*
+  * Added legend icon for systems in universe display
   * Added saving and loading of the 3d viewer window layout
   * Added setup option to associate .ini files with Freelancer Mod Studio
   * Improved work space by closing the 3d viewer on non system/universe ini files
   * Improved performance slightly
   * Fixed selection issue after sorting or removing objects
   * Fixed solid models being drawn in front of emissive ones resulting in the emissive models to be invisible
+  * Fixed model not being updated if archetype of object was changed
   * Fixed pyramid meshes being lit from the inversed direction
   * Fixed crash when dragging the 3d viewer to the document pane
   * Fixed a few small bugs
