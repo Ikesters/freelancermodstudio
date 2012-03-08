@@ -2,14 +2,15 @@
 *Version 0.9.9 - in development*
   * Added legend icon for systems in universe display
   * Added different display color for trade path (blue) and patrol path (white)
-  * Added saving and loading of the 3d viewer window layout
   * Added setup option to associate .ini files with Freelancer Mod Studio
-  * Improved work space by closing the 3d viewer on non system/universe ini files
-  * Improved performance slightly
+  * Improved performance noticably
+  * Improved window layout code
   * Fixed selection issue after sorting or removing objects
   * Fixed solid models being drawn in front of emissive ones resulting in the emissive models to be invisible
   * Fixed model not being updated if archetype of object was changed
-  * Fixed pyramid meshes being lit from the inversed direction
+  * Fixed pyramid meshes being lit from the inverted direction
+  * Fixed showing correct save state after undo/redo
+  * Fixed display of zone paths with mulitple usages (trade and patrol for example) 
   * Fixed crash when dragging the 3d viewer to the document pane
   * Fixed a few small bugs
 
@@ -18,7 +19,7 @@
   * Added the following settings:
     * Save ini files without spaces around equal sign
     * Save ini files without empty lines between sections
-    * Sort options based on category and or alphabetical
+    * Show option sorted by category and/or alphabetical
     * Show option description
   * Improved object models by making them light illuminated again - its now also easier to identify the rotation
   * Improved 3d editor selection by not moving the camera to the target
@@ -35,14 +36,14 @@
   * Improved brightness of zones
   * Fixed exclusion cylinders model
   * Fixed objects models getting too big by adding a maximum size
-  * Fixed reverting the maximized window state on program exit where the user decided to cancel the operation due to a file which was not yet saved
+  * Fixed a few small bugs
 
 *Version 0.9.6*
   * Improved and sped up object handling in the 3d viewer
   * Improved paste code so that pasted blocks will be added under selected ones and if there are none selected at the end of the list
   * Improved 3d viewer model size to have a minimum size and therefore prevent some objects from getting too small
   * Fixed issues where 3d viewer and ini editor ids were not in sync and could crash the application using copy&paste
-  * Fixed loading of some archetype files by comparing system archetypes case insensitive and useing the last occurrence of duplicate entries
+  * Fixed loading of some archetype files by comparing system archetypes case insensitive and using the last occurrence of duplicate entries
   * Fixed native application image not being installed by installer and add an checkbox to installer
 
 *Version 0.9.5.1*
