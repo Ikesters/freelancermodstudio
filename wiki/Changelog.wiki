@@ -1,16 +1,22 @@
 #labels Featured
-*Version 0.9.9 - in development*
+*Version 0.9.9.9*
+  * Improved performance of 3d editor noticably
+  * Improved 3d editor bindings
+  * [IOChanges Fixed writing some ini files based on JFLP]
+  * Fixed reading/writing entries without a value and without an equal sign (=)
+  * Fixed rotation of pyramid objects in the 3d editor
+  * Fixed display color of zone paths which have mulitple usages
+  * Fixed showing correct save state after undo/redo
+  * Fixed minor display issues of the updater
+
+*Version 0.9.9 (Beta 1 and 2)*
   * Added legend icon for systems in universe display
   * Added different display color for trade path (blue) and patrol path (white)
   * Added setup option to associate .ini files with Freelancer Mod Studio
-  * Improved performance noticably
-  * Improved window layout code
   * Fixed selection issue after sorting or removing objects
-  * Fixed solid models being drawn in front of emissive ones resulting in the emissive models to be invisible
+  * Fixed solid models not being drawn in front of emissive ones resulting in the emissive models to be invisible
   * Fixed model not being updated if archetype of object was changed
   * Fixed pyramid meshes being lit from the inverted direction
-  * Fixed showing correct save state after undo/redo
-  * Fixed display of zone paths with mulitple usages (trade and patrol for example) 
   * Fixed crash when dragging the 3d viewer to the document pane
   * Fixed a few small bugs
 
@@ -23,7 +29,7 @@
     * Show option description
   * Improved object models by making them light illuminated again - its now also easier to identify the rotation
   * Improved 3d editor selection by not moving the camera to the target
-  * Fixed all rotation issues
+  * Fixed rotation issues
   * Fixed ring zone models
   * Fixed inverted gradient system connections in universe display
   * Fixed double click on a system in universe not showing the context menu
@@ -61,8 +67,8 @@
   * Fixed a crash when opening a system in the universe 3D display when using the english language
 
 *Version 0.9.2*
-  * Added 3D system editor
-  * Added 3D universe editor including display of travel connections using jumpgate (gray), jumphole (red), both (white), none (black) or a combination of those (gradient color)
+  * Added 3d system editor
+  * Added 3d universe editor including display of travel connections using jumpgate (gray), jumphole (red), both (white), none (black) or a combination of those (gradient color)
   * Added system legend icons to table editor
   * Added possibility to hide/show objects in the system editor using the table editor
   * Improved table editor in general
