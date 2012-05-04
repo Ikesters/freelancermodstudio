@@ -1,11 +1,11 @@
 #labels Featured
 *Version 0.9.9.9*
-  * Improved performance of 3d editor noticably
-  * Improved 3d editor bindings
+  * Improved performance of 3d viewer noticeably
+  * Improved 3d viewer mouse bindings
   * [IOChanges Fixed writing some ini files based on JFLP]
   * Fixed reading/writing entries without a value and without an equal sign (=)
   * Fixed rotation of pyramid objects in the 3d editor
-  * Fixed display color of zone paths which have mulitple usages
+  * Fixed display color of zone paths which have multiple usages
   * Fixed showing correct save state after undo/redo
   * Fixed minor display issues of the updater
 
@@ -36,7 +36,7 @@
   * Fixed loading of language from settings
 
 *Version 0.9.7*
-  * Added ability to select the farest object when pressing shift+left mouse button
+  * Added ability to select the farthest object when pressing shift+left mouse button
   * Added flat surface model for system paths and universe connections
   * Improved systems models in universe
   * Improved brightness of zones
@@ -50,25 +50,24 @@
   * Improved 3d viewer model size to have a minimum size and therefore prevent some objects from getting too small
   * Fixed issues where 3d viewer and ini editor ids were not in sync and could crash the application using copy&paste
   * Fixed loading of some archetype files by comparing system archetypes case insensitive and using the last occurrence of duplicate entries
-  * Fixed native application image not being installed by installer and add an checkbox to installer
+  * Fixed native application image not being installed by installer and added an checkbox to the installer to make it optional
 
 *Version 0.9.5.1*
   * Added small delay for tooltips
-  * Fixed typo which prevented systems and universe from loading
+  * Fixed issue which prevented systems and universe from loading
 
 *Version 0.9.5*
-  * Added ability to load and save blocks in the original order
-  * Allow to change the order of blocks using drag&drop
-  * Allow sorting the blocks while still retaining the block order
-  * Options will be saved in a unified order which is used by Freelancer
-  * Allow to load and save entries which dont have a value (seperable = )
-  * If there are multiple entries for a single option take the last (Freelancer like behaviour)
   * Added octahedron mesh display for LightSource
-  * Fixed a crash when opening a system in the universe 3D display when using the english language
+  * Added ability to load and save sections (blocks) in the original order
+  * Added support for section (block) reordering using drag&drop
+  * Added support to save entries (options) in a unified order used by Freelancer
+  * Fixed loading/saving entries (options) which dont have a value (seperable = )
+  * Fixed using the last entry (option) for a single occurrence entry (option) if there are multiple entries (options)
+  * Fixed a crash when opening a system in the universe 3d viewer when using the english language
 
 *Version 0.9.2*
-  * Added 3d system editor
-  * Added 3d universe editor including display of travel connections using jumpgate (gray), jumphole (red), both (white), none (black) or a combination of those (gradient color)
+  * Added 3d system viewer
+  * Added 3d universe viewer including display of travel connections using jumpgate (gray), jumphole (red), both (white), none (black) or a combination of those (gradient color)
   * Added system legend icons to table editor
   * Added possibility to hide/show objects in the system editor using the table editor
   * Improved table editor in general
@@ -80,23 +79,23 @@
   * Fixed undo/redo bug where block will not be shown again after redo
 
 *Version 0.8.3*
-  * Added Copy/Cut/Paste
-  * Added Undo/Redo
-  * Added window layout saving/loading
-  * Fixed minor bugs in dock panel suite
+  * Added support for Copy/Cut/Paste
+  * Added support for Undo/Redo
+  * Added support for to save/load the window layout
   * Fixed ini save bug where some line breaks were not written
+  * Fixed minor bugs in dock panel suite
 
 *Version 0.8.2*
   * Added global shortcuts depending on active content
-  * Fixed editing of nested options (like faction under encounter)
-  * Fixed error notification at silent auto update on startup
+  * Fixed editing of nested entries (options) (like faction under encounter)
+  * Fixed displaying error messages on silent update
   * Fixed bug where modified color of block would not be changed if it was the last in the file
 
 *Version 0.8.1*
-  * Added freelancer.ini to template.xml so that Freelancer Mod Studio can read it
+  * Added support for freelancer.ini
   * Improved editing of multiple options in property window
   * Improved program startup speed
-  * Fixed bug if block was commented out
+  * Fixed bug if section (block) was commented out
   * Fixed bug where semicolon (;) of comment would be shown at the end of the option
 
 *Version 0.8*
