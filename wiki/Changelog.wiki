@@ -8,11 +8,11 @@
     * Improved handling by preventing to move to newly selected object (use "Focus selected" to manually do that)
     * Fixed selection issue while having objects sorted by name or type
   * Improved shape models:
+    * Added type support for tradelane paths (cyan) and changed trade paths color to pink
     * Improved display of rotatable shapes by making them pyramids
     * Improved display by making all shapes a constant size
     * Fixed rotation of pyramid shapes in the 3d editor
-    * Fixed display color of zone trade paths which have multiple usages
-    * Fixed parsing some exclusion zones
+    * Fixed parsing some trade paths and some exclusion zones
   * Improved ini editor:
     * Added support to also show the type of objects which are differently displayed in the 3d viewer
     * Added new legend icons and rework the old ones
