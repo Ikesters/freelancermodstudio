@@ -1,11 +1,23 @@
 #labels Featured
-*Version 0.9.9.9*
-  * Improved performance of 3d viewer noticeably
-  * Improved 3d viewer mouse bindings
+*Version 1.0*
+  * Added possibility to double click on the view cube to switch to the other side
+  * Added support to automatically rename entries (options) to prevent removing them from vanilla bini files
+  * Improved 3d viewer:
+    * Improved performance noticeably
+    * Improved mouse bindings
+    * Improved handling by preventing to move to newly selected object (use "Focus selected" to manually do that)
+    * Fixed selection issue while having objects sorted by name or type
+  * Improved shape models:
+    * Improved display of rotatable shapes by making them pyramids
+    * Improved display by making all shapes a constant size
+    * Fixed rotation of pyramid shapes in the 3d editor
+    * Fixed display color of zone trade paths which have multiple usages
+    * Fixed parsing some exclusion zones
+  * Improved ini editor:
+    * Added support to also show the type of objects which are differently displayed in the 3d viewer
+    * Added new legend icons and rework the old ones
   * [IOChanges Fixed writing some ini files based on JFLP]
   * Fixed reading/writing entries without a value and without an equal sign (=)
-  * Fixed rotation of pyramid objects in the 3d editor
-  * Fixed display color of zone paths which have multiple usages
   * Fixed showing correct save state after undo/redo
   * Fixed minor display issues of the updater
 
