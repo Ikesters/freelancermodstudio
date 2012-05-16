@@ -1,5 +1,6 @@
 #labels Featured
 *Version 1.0*
+  * Added real model mode (CTRL+1 to switch between shapes and models)
   * Added possibility to double click on the view cube to switch to the other side
   * Added support to automatically rename entries (options) to prevent removing them from vanilla bini files
   * Improved 3d viewer:
@@ -7,6 +8,7 @@
     * Improved mouse bindings
     * Improved handling by preventing to move to newly selected object (use "Focus selected" to manually do that)
     * Fixed selection issue while having objects sorted by name or type
+    * Fixed universe connections in special cases
   * Improved shape models:
     * Added type support for tradelane paths (cyan) and changed trade paths color to pink
     * Improved display of rotatable shapes by making them pyramids
@@ -20,6 +22,7 @@
   * Fixed reading/writing entries without a value and without an equal sign (=)
   * Fixed showing correct save state after undo/redo
   * Fixed minor display issues of the updater
+  * Fixed many small bugs and improved code
 
 *Version 0.9.9 (Beta 1 and 2)*
   * Added legend icon for systems in universe display
