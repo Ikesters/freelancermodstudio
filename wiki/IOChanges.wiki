@@ -5,7 +5,7 @@ Those are all changes related to file load/save.
 
 The <font color="#0a0">green color</font> means that sections (blocks) or entries (options) where added and the <font color="#a00">red color</font> means that they were removed.
 
-*Version 0.9.9.9*
+*Version 1.0*
 
 General fixes:
   * <font color="#0a0">Added options of ale effects into Effects (fx\`*`effects`*`.ini + fx\`*`\`*`ale.ini)</font>
