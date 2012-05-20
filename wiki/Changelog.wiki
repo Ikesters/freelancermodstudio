@@ -1,4 +1,11 @@
 #labels Featured
+*Version 1.1*
+  * Improved utf parsing code and speed
+  * Fixed rotation of objects/zones/paths with more than one defined axis value (please recheck your files)
+  * Fixed parsing cmp models with single LoD
+  * Fixed display of zone cylinders and rings
+  * Fixed camera flipping glitch when zooming too fast
+
 *Version 1.0*
   * Added real model mode (CTRL+1 to switch between shapes and models)
   * Added possibility to double click on the view cube to switch to the other side
