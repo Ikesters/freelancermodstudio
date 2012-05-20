@@ -51,7 +51,7 @@
     * Show option description
   * Improved object models by making them light illuminated again - its now also easier to identify the rotation
   * Improved 3d editor selection by not moving the camera to the target
-  * Fixed rotation issues
+  * Fixed some rotation issues
   * Fixed ring zone models
   * Fixed inverted gradient system connections in universe display
   * Fixed double click on a system in universe not showing the context menu
