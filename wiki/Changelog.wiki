@@ -1,10 +1,12 @@
 #labels Featured
-*Version 1.1*
-  * Improved utf parsing code and speed
+*Version 1.0.1*
+  * Improved utf parsing speed
   * Fixed rotation of objects/zones/paths with more than one defined axis value (please recheck your files)
   * Fixed parsing cmp models with single LoD
-  * Fixed display of zone cylinders and rings
-  * Fixed camera flipping glitch when zooming too fast
+  * Fixed display of zone cylinders and rings after version 1.0
+  * Fixed not being able to save a file using "Save" after version 1.0
+  * Fixed 3d viewer camera flipping glitch when zooming in too fast
+  * Fixed 3d viewer camera wiggle glitch when zooming in too far
 
 *Version 1.0*
   * Added real model mode (CTRL+1 to switch between shapes and models)
@@ -79,10 +81,10 @@
   * Fixed issue which prevented systems and universe from loading
 
 *Version 0.9.5*
-  * Added octahedron mesh display for LightSource
   * Added ability to load and save sections (blocks) in the original order
   * Added support for section (block) reordering using drag&drop
   * Added support to save entries (options) in a unified order used by Freelancer
+  * Added octahedron mesh display for LightSource
   * Fixed loading/saving entries (options) which dont have a value (seperable = )
   * Fixed using the last entry (option) for a single occurrence entry (option) if there are multiple entries (options)
   * Fixed a crash when opening a system in the universe 3d viewer when using the english language
