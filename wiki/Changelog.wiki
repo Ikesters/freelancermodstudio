@@ -1,4 +1,13 @@
 #labels Featured
+*Version 1.0.2*
+  * Added support for legend icons and 3d models in solar archetype files
+  * Improved adding/pasting blocks by making them automatically visible
+  * Fixed rotation for cylindrical zones (not paths) and zone rings
+  * Fixed selection box not updating when changing transform object values
+  * Fixed updating object model when the changed object had the same object type but a different model
+  * Fixed detecting some exclusion zones (property_flags | 0x10000)
+  * Fixed crash when file could not be saved (for example being read-only) by showing a warning instead
+
 *Version 1.0.1*
   * Improved utf parsing speed
   * Fixed rotation of objects/zones/paths with more than one defined axis value (please recheck your files)
