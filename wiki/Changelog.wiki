@@ -1,4 +1,9 @@
 #labels Featured
+*Version 1.0.3*
+  * Improved model load speed by caching the models
+  * Fixed a crash in the universe 3d viewer
+  * Fixed memory leak in culture changer
+
 *Version 1.0.2*
   * Added support for legend icons and 3d models in solar archetype files
   * Improved adding/pasting sections (blocks) by making them visible automatically
