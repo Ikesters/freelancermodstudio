@@ -1,4 +1,9 @@
 #labels Featured
+*Version 1.0.4*
+  * Fixed selection box size of models
+  * Fixed sometimes not being able to select the nearest/farthest object
+  * Fixed model not being removed when set to invalid archetype after version 1.0.3
+
 *Version 1.0.3*
   * Improved model load speed by caching the models
   * Fixed a crash in the universe 3d viewer
