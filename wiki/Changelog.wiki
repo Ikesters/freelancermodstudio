@@ -1,7 +1,8 @@
 #labels Featured
 *Version 1.0.5*
   * Improved camera
-    * Camera now zooms to fit the object into view on "Focus selected" and when resetting the camera
+    * Camera now zooms to fit the selected object into view on "Focus selected"
+    * Camera now zooms to fit all objects into view when opening files, switching between files or resetting the camera
   * Improved single model display
     * Added model display in asteroid archetype, ship archetype, equipment and explosions files
     * Added selection box
