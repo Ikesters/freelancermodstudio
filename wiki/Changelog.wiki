@@ -1,4 +1,16 @@
 #labels Featured
+*Version 1.0.5*
+  * Improved camera
+    * Camera now zooms to fit the object into view on "Focus selected" and when resetting the camera
+  * Improved single model display
+    * Added model display in asteroid archetype, ship archetype, equipment and explosions files
+    * Added selection box
+    * Camera automatically fits object into view
+    * Fixed flicker when changing the model
+  * Improved performance slighty when modifying object properties with opened 3d viewer
+  * Fixed display of a few misc models
+  * Fixed a 3d viewer issue when opening a file with closed 3d viewer
+
 *Version 1.0.4*
   * Fixed selection box size of models
   * Fixed sometimes not being able to select the nearest/farthest object
