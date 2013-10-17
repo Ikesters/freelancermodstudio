@@ -1,4 +1,8 @@
 #labels Featured
+*Version 1.0.6*
+  * Added 3d viewer model tracking via View->Track selected, displaying distance and angle between selected and tracked model
+  * Added selection toggling inside 3d viewer by holding CTRL while clicking on a model
+
 *Version 1.0.5.1*
   * Fixed crash when focus zooming camera to hidden model
   * Fixed minor visual glitches when using higher DPI on the OS
