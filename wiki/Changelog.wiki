@@ -1,8 +1,23 @@
 #labels Featured
+*Version 1.1*
+  * Added 3D editor object manipulation
+    * Translate, rotate and scale
+    * Supported on system and universe files
+  * Added faster screen space line implementation
+  * Added cut/copy/paste entries to table editor right click context menu
+  * Improved 3D editor object selection greatly
+    * Prioritize selection by type: system objects before paths before zones
+  * Improved tracked object line display:
+    * Draw it in front of all other objects
+  * Improved spherical/elliptical shape model quality
+    * Helps align stuff along huge spherical/elliptical objects, however slightly reduces performance
+  * Improved camera position of look-at command (double right click on model)
+  * Fixed orientation of 3D editor orientation cube
+
 *Version 1.0.6*
-  * Added 3d viewer model tracking via View->Track selected, displaying distance and angle between selected and tracked model
-  * Added selection toggling inside 3d viewer by holding CTRL while clicking on a model
-  * Fixed using animations when changing system positions in the universe display of the 3d viewer
+  * Added 3D editor model tracking via View->Track selected, displaying distance and angle between selected and tracked model
+  * Added selection toggling inside 3D editor by holding CTRL while clicking on a model
+  * Fixed using animations when changing system positions in the universe display of the 3D editor
 
 *Version 1.0.5.1*
   * Fixed crash when focus zooming camera to hidden model
@@ -17,9 +32,9 @@
     * Added selection box
     * Camera automatically fits object into view
     * Fixed flicker when changing the model
-  * Improved performance slighty when modifying object properties with opened 3d viewer
+  * Improved performance slighty when modifying object properties with opened 3D editor
   * Fixed display of a few misc models
-  * Fixed a 3d viewer issue when opening a file with closed 3d viewer
+  * Fixed a 3D editor issue when opening a file with closed 3D editor
 
 *Version 1.0.4*
   * Fixed selection box size of models
@@ -28,7 +43,7 @@
 
 *Version 1.0.3*
   * Improved model load speed by caching the models
-  * Fixed a crash in the universe 3d viewer
+  * Fixed a crash in the universe 3D editor
   * Fixed memory leak in culture changer
 
 *Version 1.0.2*
@@ -46,14 +61,14 @@
   * Fixed parsing cmp models with single LoD
   * Fixed display of zone cylinders and rings after version 1.0
   * Fixed not being able to save a file using "Save" after version 1.0
-  * Fixed 3d viewer camera flipping glitch when zooming in too fast
-  * Fixed 3d viewer camera wiggle glitch when zooming in too far
+  * Fixed 3D editor camera flipping glitch when zooming in too fast
+  * Fixed 3D editor camera wiggle glitch when zooming in too far
 
 *Version 1.0*
   * Added real model mode (CTRL+1 to switch between shapes and models)
   * Added possibility to double click on the view cube to switch to the other side
   * Added support to automatically rename entries (options) to prevent removing them from vanilla bini files
-  * Improved 3d viewer:
+  * Improved 3D editor:
     * Improved performance noticeably
     * Improved mouse bindings
     * Improved handling by preventing to move to newly selected object (use "Focus selected" to manually do that)
@@ -63,10 +78,10 @@
     * Added type support for tradelane paths (cyan) and changed trade paths color to pink
     * Improved display of rotatable shapes by making them pyramids
     * Improved display by making all shapes a constant size
-    * Fixed rotation of pyramid shapes in the 3d editor
+    * Fixed rotation of pyramid shapes in the 3D editor
     * Fixed parsing some trade paths and some exclusion zones
   * Improved ini editor:
-    * Added support to also show the type of objects which are differently displayed in the 3d viewer
+    * Added support to also show the type of objects which are differently displayed in the 3D editor
     * Added new legend icons and rework the old ones
   * [IOChanges Fixed writing some ini files based on JFLP]
   * Fixed reading/writing entries without a value and without an equal sign (=)
@@ -82,7 +97,7 @@
   * Fixed solid models not being drawn in front of emissive ones resulting in the emissive models to be invisible
   * Fixed model not being updated if archetype of object was changed
   * Fixed pyramid meshes being lit from the inverted direction
-  * Fixed crash when dragging the 3d viewer to the document pane
+  * Fixed crash when dragging the 3D editor to the document pane
   * Fixed a few small bugs
 
 *Version 0.9.8*
@@ -93,7 +108,7 @@
     * Show option sorted by category and/or alphabetical
     * Show option description
   * Improved object models by making them light illuminated again - its now also easier to identify the rotation
-  * Improved 3d editor selection by not moving the camera to the target
+  * Improved 3D editor selection by not moving the camera to the target
   * Fixed some rotation issues
   * Fixed ring zone models
   * Fixed inverted gradient system connections in universe display
@@ -110,10 +125,10 @@
   * Fixed a few small bugs
 
 *Version 0.9.6*
-  * Improved and sped up object handling in the 3d viewer
+  * Improved and sped up object handling in the 3D editor
   * Improved paste code so that pasted blocks will be added under selected ones and if there are none selected at the end of the list
-  * Improved 3d viewer model size to have a minimum size and therefore prevent some objects from getting too small
-  * Fixed issues where 3d viewer and ini editor ids were not in sync and could crash the application using copy&paste
+  * Improved 3D editor model size to have a minimum size and therefore prevent some objects from getting too small
+  * Fixed issues where 3D editor and ini editor ids were not in sync and could crash the application using copy&paste
   * Fixed loading of some archetype files by comparing system archetypes case insensitive and using the last occurrence of duplicate entries
   * Fixed native application image not being installed by installer and added an checkbox to the installer to make it optional
 
@@ -128,7 +143,7 @@
   * Added octahedron mesh display for LightSource
   * Fixed loading/saving entries (options) which dont have a value (seperable = )
   * Fixed using the last entry (option) for a single occurrence entry (option) if there are multiple entries (options)
-  * Fixed a crash when opening a system in the universe 3d viewer when using the english language
+  * Fixed a crash when opening a system in the universe 3D editor when using the english language
 
 *Version 0.9.2*
   * Added 3d system viewer
