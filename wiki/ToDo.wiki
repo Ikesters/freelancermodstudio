@@ -1,15 +1,12 @@
 *To do list*
-  * Improve 3d editor
-    * Position/rotation/scale transform using mouse
   * Improve ini editor
     * Typecasting (not possible to enter a text inside a number property)
     * Save bini
-    * Filter by object type
+    * Search filter
     * Handle multiple filetypes within one
   * Mod management
-  * Create FLMOD files out of mod
-  * Activate / Deactivate current mod to Freelancer
-  * Ressource Editor
-  * UTF Editor
-  * Generate files (for example systems_shortest_path.ini)
+    * Create FLMOD files out of mod
+    * Generate files (for example systems_shortest_path.ini)
+  * Ressource editor
+  * UTF editor
   * Change project to WPF (would result in a better performance and more powerful display)
