@@ -1,10 +1,24 @@
 #labels Featured
+*Version 1.1.1*
+  * Improved key shortcuts
+    * Added special key shortcuts to the 3D editor
+    * Improved accessibility of global key shortcuts on property / 3D editor windows
+  * Improved walk-around/fly mode in the 3D editor
+  * Improved look-at command adding animation and preventing the user from accidently clicking the manipulators
+  * Improved table editor adding a separate row color for completely new sections (blocks)
+  * Improved block visibility enabling it after changing block from invalid to valid archetype
+  * Fixed crash when switching manipulation mode during active manipulation
+  * Fixed radius-scale manipulation of zone paths
+  * Fixed manipulation if camera look-at position was not on manipulated object
+  * Fixed file names under Window menu (regression in 1.0.3)
+  * Fixed full screen mode on Windows 7+
+
 *Version 1.1*
   * Added 3D editor object manipulation
     * Translate, rotate and scale
     * Supported on system and universe files
   * Added faster screen space line implementation
-  * Added cut/copy/paste entries to table editor right click context menu
+  * Added cut/copy/paste entries (options) to table editor right click context menu
   * Improved 3D editor object selection greatly
     * Prioritize selection by type: system objects before paths before zones
   * Improved tracked object line display:
@@ -84,7 +98,7 @@
     * Added support to also show the type of objects which are differently displayed in the 3D editor
     * Added new legend icons and rework the old ones
   * [IOChanges Fixed writing some ini files based on JFLP]
-  * Fixed reading/writing entries without a value and without an equal sign (=)
+  * Fixed reading/writing entries (options) without a value and without an equal sign (=)
   * Fixed showing correct save state after undo/redo
   * Fixed minor display issues of the updater
   * Fixed many small bugs and improved code
@@ -104,7 +118,7 @@
   * Added ability to focus the selected object by pressing CTRL+F
   * Added the following settings:
     * Save ini files without spaces around equal sign
-    * Save ini files without empty lines between sections
+    * Save ini files without empty lines between sections (blocks)
     * Show option sorted by category and/or alphabetical
     * Show option description
   * Improved object models by making them light illuminated again - its now also easier to identify the rotation
@@ -129,7 +143,7 @@
   * Improved paste code so that pasted blocks will be added under selected ones and if there are none selected at the end of the list
   * Improved 3D editor model size to have a minimum size and therefore prevent some objects from getting too small
   * Fixed issues where 3D editor and ini editor ids were not in sync and could crash the application using copy&paste
-  * Fixed loading of some archetype files by comparing system archetypes case insensitive and using the last occurrence of duplicate entries
+  * Fixed loading of some archetype files by comparing system archetypes case insensitive and using the last occurrence of duplicate entries (options)
   * Fixed native application image not being installed by installer and added an checkbox to the installer to make it optional
 
 *Version 0.9.5.1*
@@ -151,7 +165,7 @@
   * Added system legend icons to table editor
   * Added possibility to hide/show objects in the system editor using the table editor
   * Improved table editor in general
-  * Fixed incorrect display of document menu if there is no open file at startup
+  * Fixed incorrect display of document menu if there was no open file at startup
   * Fixed content and document null bug
   * Fixed bug with open system editor and no open document
   * Fixed minor display bugs
