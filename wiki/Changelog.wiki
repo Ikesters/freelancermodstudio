@@ -2,7 +2,7 @@
 *Version 1.1.2*
   * Improved recent file handling
     * Fixed adding file to recent files when it is closed instead of opened/saved
-    * Fixed open recent file shortcut key
+    * Fixed recent file shortcut key
   * Improved look-at command
     * Added command to main menu
     * Reverted look-at position of mouse command back to click point instead of center of clicked object
@@ -10,7 +10,8 @@
   * Fixed camera reset not ignoring selection/manipulators visuals
   * Fixed an issue with global shortcut handling (regression in 1.1.1)
   * Fixed window layout issue if recent files can't be opened on program start
-  * Fixed crash when docking property window or 3d editor into document area
+  * Fixed crash when docking property window or 3D editor into document area
+  * [IOChanges Fixed writing two ini files]
 
 *Version 1.1.1*
   * Improved key shortcuts
