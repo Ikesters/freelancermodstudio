@@ -1,4 +1,15 @@
 #labels Featured
+*Version 1.2*
+  * Added support to read/write comments from/to ini files
+  * Added object move keys to fine-tune position values
+  * Added support to fallback to specified Freelancer DATA directory in case DATA path could not be found relative to opened file
+  * Added document tab context menu to easily copy full file path to clipboard and open containing folder
+  * Improved 3D editor walk-around/fly mode by increasing move speed by 5x when holding SHIFT
+  * Fixed model scale and scale manipulation of zone rings
+  * Fixed camera rotation while moving in walk-around/fly mode
+  * Fixed selected manipulation mode after 3D editor was closed and then re-opened
+  * Fixed hiding 3D editor if no document could be loaded on application start
+
 *Version 1.1.2*
   * Improved recent file handling
     * Fixed adding file to recent files when it is closed instead of opened/saved
@@ -9,7 +20,7 @@
   * Fixed undo if sections which can exist multiple times and sections which can only exist once were added at the same time due to copy/paste
   * Fixed camera reset not ignoring selection/manipulators visuals
   * Fixed an issue with global shortcut handling (regression in 1.1.1)
-  * Fixed window layout issue if recent files can't be opened on program start
+  * Fixed window layout issue if recent files can't be opened on application start
   * Fixed crash when docking property window or 3D editor into document area
   * [IOChanges Fixed writing two ini files]
 
@@ -202,7 +213,7 @@
 *Version 0.8.1*
   * Added support for freelancer.ini
   * Improved editing of multiple options in property window
-  * Improved program startup speed
+  * Improved application startup speed
   * Fixed bug if section (block) was commented out
   * Fixed bug where semicolon (;) of comment would be shown at the end of the option
 
